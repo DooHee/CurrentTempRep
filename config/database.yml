@@ -32,7 +32,7 @@ test:
   database: Hello_auth_test
   pool: 5
   username: root
-  password:
+  password: rootpassword
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -41,5 +41,5 @@ production:
   database: Hello_auth_production
   pool: 5
   username: root
-  password: 
+  password: rootpassword
   socket: /var/run/mysqld/mysqld.sock
